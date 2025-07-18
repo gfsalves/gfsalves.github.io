@@ -162,8 +162,6 @@ analytics:
 include:
   - .htaccess
   - _pages
-  - _pages/en
-  - _pages/pt
   - files
 exclude:
   - "*.sublime-project"
@@ -255,16 +253,16 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  # - scope:
-  #     path: ""
-  #     type: teaching
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     comments: true
-  # _publications
+  _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  _publications
   - scope:
       path: ""
       type: publications
