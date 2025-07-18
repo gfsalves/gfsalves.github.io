@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-Sample text $$\nu$$ 
-
 # About Me 
 
 Sample text
