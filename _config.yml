@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Thinking as a physicist"
+title                    : 
 title_separator          : "-"
 name                     : &name "Gustavo Alves"
 description              : &description "PhD student in Physics at the University of Sao Paulo, Brazil."
