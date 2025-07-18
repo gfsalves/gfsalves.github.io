@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+Hello! 
+
 # About Me 
 
 Sample text
