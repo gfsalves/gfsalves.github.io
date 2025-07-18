@@ -22,14 +22,14 @@ repository               : "gfsalves/gfsalves.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_pic.jpg"
+  avatar           : "profile.png"
   name             : "Gustavo Alves"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student at the University of São Paulo, Brazil." 
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : #"Earth"
+  employer         : #"Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "gustavo.figueiredo.alves@usp.br" 
 
   # Academic websites
   academia         : # URL
