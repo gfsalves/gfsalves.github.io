@@ -11,37 +11,37 @@ en:
   - title: "Home"
     url: /en/
 
-  - title: "About"
-    url: /en/about/
+  - title: "Talks"
+    url: /en/talks/
+
+  - title: "Publications"
+    url: /en/publications/
+  
+  - title: "Blog Posts"
+    url: /en/year-archive/
 
   - title: "Teaching"
     url: /en/teaching/
 
-  - title: "Publications"
-    url: /en/publications/
-
   - title: "CV"
     url: /en/cv/
-
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  # - title: "Guide"
-  #   url: /markdown/
 
 
 pt:
   - title: "Início"
     url: /pt/
 
-  - title: "Sobre"
-    url: /pt/sobre/
-
-  - title: "Ensino"
-    url: /pt/ensino/
-
+  - title: "Palestras"
+    url: /pt/publicacoes/
+  
   - title: "Publicações"
     url: /pt/publicacoes/
+  
+  - title: "Blog Posts"
+    url: /pt/year-archive/
+   
+  - title: "Ensino"
+    url: /pt/ensino/
 
   - title: "CV"
     url: /pt/cv/
