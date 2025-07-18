@@ -1,4 +1,78 @@
+// /* ==========================================================================
+//    MASTHEAD OLD
+//    ========================================================================== */
+
+// .masthead {
+//   position: fixed;
+//   background: var(--global-bg-color);
+//   height: fit-content;
+//   top: 0;
+//   width: 100%;
+
+//   -webkit-animation: intro 0.3s both;
+//           animation: intro 0.3s both;
+//   -webkit-animation-delay: 0.15s;
+//           animation-delay: 0.15s;
+//   z-index: 20;
+
+//   &::after {
+//     content: "";
+//     position: absolute;
+//     bottom: 0;
+//     height: 1px;
+//     background: var(--global-border-color);
+//     width: 100%;
+//   }
+
+//   &__inner-wrap {
+//     @include container;
+//     @include clearfix;
+//     padding: 0.5em 1em;
+//     font-family: $sans-serif-narrow;
+
+//     @include breakpoint($x-large) {
+//       max-width: $x-large;
+//     }
+
+//     nav {
+//       z-index: 10;
+//     }
+
+//     a {
+//       text-decoration: none;
+//     }
+//   }
+// }
+
+// .masthead__menu {
+
+//   ul {
+//     margin: 0;
+//     padding: 0;
+//     clear: both;
+//     list-style-type: none;
+//   }
+// }
+
+// .masthead__menu-item {
+//   background-color: var(--global-bg-color);
+//   display: block;
+//   list-style-type: none;
+//   white-space: nowrap;
+
+//   &--lg {
+//     padding-right: 2em;
+//     font-weight: 700;
+//   }
+// }
+
+
 /* ==========================================================================
+   MASTHEAD NEW
+   ========================================================================== */
+
+
+   /* ==========================================================================
    MASTHEAD
    ========================================================================== */
 
@@ -45,23 +119,62 @@
 }
 
 .masthead__menu {
-
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
+
+    // --- NEW CSS FOR FLEXBOX LAYOUT ---
+    &.visible-links { // Target the specific ul with class 'visible-links'
+      display: flex; // Enable flexbox for horizontal layout
+      justify-content: flex-end; // Align items to the right (end of the flex container)
+      align-items: center; // Vertically center items in the middle of the masthead height
+
+      .masthead__menu-item {
+        // Override the default 'display: block;' for list items within the flex container
+        display: flex; // Make each menu item a flex item too for internal alignment if needed
+        align-items: center; // Center content vertically within the menu item
+
+        &--lg { // "M. Hostert" title
+          margin-right: auto; // This pushes all subsequent items to the right
+          padding-right: 2em;
+          font-weight: 700;
+        }
+
+        &.lang-switcher { // The new language switcher list item
+          // These styles help position and visually separate the switcher
+          padding-left: 1em; // Add some space from the previous item
+          padding-right: 1em; // Add space from the next item (or end of list)
+          // Ensure it's not compressed too much by its content
+          white-space: nowrap; 
+          
+          a {
+            // Style the links within the switcher if needed
+            font-size: 0.9em; // Slightly smaller font for the switcher, adjust as desired
+            color: var(--global-text-color-light); // Adjust color if needed
+            &:hover {
+              color: var(--global-link-color-hover);
+            }
+          }
+        }
+      }
+    }
+    // --- END NEW CSS ---
   }
 }
 
 .masthead__menu-item {
   background-color: var(--global-bg-color);
-  display: block;
+  // display: block; // This will be overridden by the flex display on .visible-links
   list-style-type: none;
   white-space: nowrap;
 
+  // The &--lg rule is already nested correctly in the .masthead__menu ul.visible-links block
+  // because it's a modifier of masthead__menu-item. Keeping it here for clarity
+  // although the specific margin-right: auto is defined above for the flex context.
   &--lg {
-    padding-right: 2em;
-    font-weight: 700;
+    // padding-right: 2em; // Redundant as it's defined above for the flex context
+    // font-weight: 700; // This is still relevant here for the font weight
   }
 }
