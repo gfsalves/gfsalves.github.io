@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Gustavo Alves"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student at the University of São Paulo, Brazil." 
+  bio              : "PhD Student at the University of Sao $\nu$ Paulo, Brazil." 
   location         : #"Earth"
   employer         : #"Red Brick University"
   uri              : # URL
