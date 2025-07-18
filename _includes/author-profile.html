@@ -113,7 +113,10 @@
       {% endif %}
       {% if author.instagram %}
         <li><a href="https://instagram.com/{{ author.instagram }}"><i class="fab fa-fw fa-instagram icon-pad-right" aria-hidden="true"></i>Instagram</a></li>
-      {% endif %}      
+      {% endif %}   
+      {% if author.inspire %}
+        <li><a href="{{ author.inspire }}"><i class="ai ai-inspire ai-fw icon-pad-right" aria-hidden="true"></i> Inspire</a></li>
+      {% endif %}   
       {% if author.lastfm %}
         <li><a href="https://last.fm/user/{{ author.lastfm }}"><i class="fab fa-fw fa-lastfm icon-pad-right" aria-hidden="true"></i>Last.fm</a></li>
       {% endif %}      
