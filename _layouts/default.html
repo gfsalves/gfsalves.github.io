@@ -18,13 +18,13 @@ layout: compress
     {% assign lang = page.lang | default: site.default_lang %}
     {% assign nav = site.data.navigation[lang] %}
 
-    <nav>
+    <!-- <nav>
       <ul>
         {% for item in nav %}
           <li><a href="{{ item.url }}">{{ item.title }}</a></li>
         {% endfor %}
       </ul>
-    </nav>
+    </nav> -->
     
     {% include browser-upgrade.html %}
     {% include masthead.html %}
