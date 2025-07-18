@@ -9,72 +9,72 @@
 //   top: 0;
 //   width: 100%;
 
-// //   -webkit-animation: intro 0.3s both;
-// //           animation: intro 0.3s both;
-// //   -webkit-animation-delay: 0.15s;
-// //           animation-delay: 0.15s;
-// //   z-index: 20;
+//   -webkit-animation: intro 0.3s both;
+//           animation: intro 0.3s both;
+//   -webkit-animation-delay: 0.15s;
+//           animation-delay: 0.15s;
+//   z-index: 20;
 
-// //   &::after {
-// //     content: "";
-// //     position: absolute;
-// //     bottom: 0;
-// //     height: 1px;
-// //     background: var(--global-border-color);
-// //     width: 100%;
-// //   }
+//   &::after {
+//     content: "";
+//     position: absolute;
+//     bottom: 0;
+//     height: 1px;
+//     background: var(--global-border-color);
+//     width: 100%;
+//   }
 
-// //   &__inner-wrap {
-// //     @include container;
-// //     @include clearfix;
-// //     padding: 0.5em 1em;
-// //     font-family: $sans-serif-narrow;
+//   &__inner-wrap {
+//     @include container;
+//     @include clearfix;
+//     padding: 0.5em 1em;
+//     font-family: $sans-serif-narrow;
 
-// //     @include breakpoint($x-large) {
-// //       max-width: $x-large;
-// //     }
+//     @include breakpoint($x-large) {
+//       max-width: $x-large;
+//     }
 
-// //     nav {
-// //       z-index: 10;
-// //     }
+//     nav {
+//       z-index: 10;
+//     }
 
-// //     a {
-// //       text-decoration: none;
-// //     }
-// //   }
-// // }
+//     a {
+//       text-decoration: none;
+//     }
+//   }
+// }
 
-// // .masthead__menu {
+// .masthead__menu {
 
-// //   ul {
-// //     margin: 0;
-// //     padding: 0;
-// //     clear: both;
-// //     list-style-type: none;
-// //   }
-// // }
+//   ul {
+//     margin: 0;
+//     padding: 0;
+//     clear: both;
+//     list-style-type: none;
+//   }
+// }
 
-// // .masthead__menu-item {
-// //   background-color: var(--global-bg-color);
-// //   display: block;
-// //   list-style-type: none;
-// //   white-space: nowrap;
+// .masthead__menu-item {
+//   background-color: var(--global-bg-color);
+//   display: block;
+//   list-style-type: none;
+//   white-space: nowrap;
 
-// //   &--lg {
-// //     padding-right: 2em;
-// //     font-weight: 700;
-// //   }
-// // }
-
-
-// /* ==========================================================================
-//    MASTHEAD NEW
-//    ========================================================================== */
+//   &--lg {
+//     padding-right: 2em;
+//     font-weight: 700;
+//   }
+// }
 
 
-//    /* ==========================================================================
-//    MASTHEAD
-//    ========================================================================== */
+/* ==========================================================================
+   MASTHEAD NEW
+   ========================================================================== */
+
+
+   /* ==========================================================================
+   MASTHEAD
+   ========================================================================== */
 
 // .masthead {
 //   position: fixed;
@@ -151,35 +151,83 @@
 //   }
 // }
 
+// .masthead__menu-item {
+//   background-color: var(--global-bg-color);
+//   // display: block; // This will be overridden by the flex display on .visible-links
+//   list-style-type: none;
+//   white-space: nowrap;
+
+//   // The &--lg rule is already nested correctly in the .masthead__menu ul.visible-links block
+//   // because it's a modifier of masthead__menu-item. Keeping it here for clarity
+//   // although the specific margin-right: auto is defined above for the flex context.
+//   &--lg {
+//     // padding-right: 2em; // Redundant as it's defined above for the flex context
+//     // font-weight: 700; // This is still relevant here for the font weight
+//   }
+// }
 
 
-<header class="site-header" role="banner">
-  <div class="nav-container">
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: relative;
+  flex-wrap: wrap;
+}
 
-    <!-- Site title -->
-    <div class="site-title">
-      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    </div>
+.site-title {
+  position: absolute;
+  left: 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
 
-    <!-- Navigation links centered -->
-    <nav class="top-nav">
-      <ul class="top-nav__links">
-        {% assign nav = site.data.navigation[page.lang] %}
-        {% for item in nav %}
-          <li class="top-nav__item">
-            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
 
-    <!-- Language switch and theme toggle -->
-    <div class="top-nav__extras">
-      <span class="lang-switch">
-        <a href="/en/">🇺🇸</a> | <a href="/pt/">🇧🇷</a>
-      </span>
-      <button id="theme-toggle" class="theme-toggle" title="Toggle theme">🌞</button>
-    </div>
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
 
-  </div>
-</header>
+.top-nav__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.top-nav__item a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--global-text-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--global-link-color-hover);
+    text-decoration: underline;
+  }
+}
+
+.top-nav__extras {
+  position: absolute;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.1rem;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 0;
+}

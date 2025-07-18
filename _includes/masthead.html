@@ -26,8 +26,8 @@
     </div>
   </div>
 </div> -->
-
-<!-- New: -->
+<!-- 
+New:
 
 {% include base_path %}
 
@@ -64,4 +64,38 @@
       </nav>
     </div>
   </div>
-</div>
+</div> -->
+
+
+<header class="site-header" role="banner">
+  <div class="nav-container">
+
+    <!-- Site title -->
+    <div class="site-title">
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </div>
+
+    <!-- Navigation links centered -->
+    <nav class="top-nav">
+      <ul class="top-nav__links">
+        {% assign nav = site.data.navigation[page.lang] %}
+        {% for item in nav %}
+          <li class="top-nav__item">
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <!-- Language switch and theme toggle -->
+    <div class="top-nav__extras">
+      <span class="lang-switch">
+        <a href="/en/">🇺🇸</a> | <a href="/pt/">🇧🇷</a>
+      </span>
+      <button id="theme-toggle" class="theme-toggle" title="Toggle theme">🌞</button>
+    </div>
+
+  </div>
+</header>
+
+
