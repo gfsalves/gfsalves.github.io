@@ -50,7 +50,7 @@
       <p>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
     {% elsif post.collection == 'publications' and post.venue %}
       <p>Published in <i>{{ post.venue }}</i></p>
-    {% elsif post.date %}
+    {% elsif post.date and post.venue%}
       <p class="page__date">
         <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
         {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong>
