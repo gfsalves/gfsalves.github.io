@@ -2,8 +2,8 @@
 title: "Could SBND-PRISM probe lepton flavor violation?"
 collection: publications
 category: manuscripts
-permalink: /publication/2024-08-01-Could-SBND-PRISM-probe-lepton-flavor-violation
-date: 2024-08-01
+permalink: /publication/2024-05-01-Could-SBND-PRISM-probe-lepton-flavor-violation
+date: 2024-05-01
 venue: 'Phys.Rev.D 110 (2024) 3, 3'
 paperurl: 'https://inspirehep.net/literature/2782872'
 ---

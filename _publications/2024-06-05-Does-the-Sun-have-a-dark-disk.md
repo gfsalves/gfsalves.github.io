@@ -2,8 +2,8 @@
 title: "Does the Sun have a dark disk?"
 collection: publications
 category: manuscripts
-permalink: /publication/2025-04-15-Does-the-Sun-have-a-dark-disk
-date: 2025-04-15
+permalink: /publication/2024-06-05-Does-the-Sun-have-a-dark-disk
+date: 2024-06-05
 venue: 'Phys.Rev.D 111 (2025) 8, 083057'
 paperurl: 'https://inspirehep.net/literature/2795337'
 ---
