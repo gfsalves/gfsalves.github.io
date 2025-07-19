@@ -49,7 +49,7 @@
     {% if post.collection == 'teaching' %}
       <p>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
     {% elsif post.collection == 'publications' %}
-      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+      <p>Published in <i>{{ post.venue }}</p>
     {% elsif post.date %}
       <p class="page__date">
         <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
@@ -80,7 +80,6 @@
       <p>Recommended citation: {{ post.citation }}</p>
     {% endif %}
 
-    <!-- Removed download_links section -->
 
   </article>
 </div>
