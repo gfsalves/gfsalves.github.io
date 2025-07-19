@@ -6,7 +6,7 @@ permalink: /talks/2024-07-01-WavePacket-Invisibles
 venue: "Invisibles Workshop"
 date: 2024-07-01
 slidesurl: 'http://gfsalves.github.io/files/Invisibles_WP_2024_Alves_Gustavo.pdf'
-location: "Alte Mensa, Göttingen University, Germany"
+location: "Bologna, Italy"
 lang: en
 ---
 
