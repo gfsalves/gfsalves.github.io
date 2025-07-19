@@ -89,7 +89,7 @@ publication_category:
   conferences:
     title: 'Conference Papers'
   master:
-    title: 'Master Dissertation'
+    title: 'Master''s Dissertation'
   phd:
     title: 'PhD Thesis'
 
