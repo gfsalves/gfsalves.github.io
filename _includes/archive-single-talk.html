@@ -99,10 +99,6 @@
       </p>
     {% endif %}
 
-    {% if post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}" target="_blank">📥 Download slides</a></p>
-    {% endif %}
-
     {% if post.excerpt %}
       <details>
         <summary><strong>Abstract</strong></summary>
@@ -110,4 +106,8 @@
       </details>
     {% endif %}
   </article>
+  
+    {% if post.slidesurl %}
+      <p><a href="{{ post.slidesurl }}" target="_blank">📥 Download slides</a></p>
+    {% endif %}
 </div>
