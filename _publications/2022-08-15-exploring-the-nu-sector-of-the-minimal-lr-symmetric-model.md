@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2022-08-15-Exploring-the-Neutrino-Sector-of-the-Minimal-Left-Right-Symmetric-Model
 date: 2022-08-15
-# venue: 'Phys.Rev.D 106 (2022) 3, 036028'
+#venue: 'Phys.Rev.D 106 (2022) 3, 036028'
 paperurl: 'https://inspirehep.net/literature/2136630'
 ---
 
