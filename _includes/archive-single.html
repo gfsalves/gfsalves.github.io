@@ -61,9 +61,9 @@
     {% endif %}
 
     {% if post.abstract %}
-      <details class="archive__item-abstract">
+      <details class="archive__item-abstract" style="margin-top: 0.5em;">
         <summary><strong>Abstract</strong></summary>
-        <p>{{ post.abstract | markdownify }}</p>
+        <div>{{ post.abstract | markdownify }}</div>
       </details>
     {% endif %}
 
@@ -80,19 +80,7 @@
       <p>Recommended citation: {{ post.citation }}</p>
     {% endif %}
 
-    {% assign download_links = "" %}
-    {% if post.paperurl %}{% assign download_links = download_links | append: "<a href='" | append: post.paperurl | append: "'>Download Paper</a>" %}{% endif %}
-    {% if post.slidesurl %}
-      {% if download_links != "" %}{% assign download_links = download_links | append: " | " %}{% endif %}
-      {% assign download_links = download_links | append: "<a href='" | append: post.slidesurl | append: "'>Download Slides</a>" %}
-    {% endif %}
-    {% if post.bibtexurl %}
-      {% if download_links != "" %}{% assign download_links = download_links | append: " | " %}{% endif %}
-      {% assign download_links = download_links | append: "<a href='" | append: post.bibtexurl | append: "'>Download Bibtex</a>" %}
-    {% endif %}
-    {% if download_links != "" %}
-      <p>{{ download_links }}</p>
-    {% endif %}
+    <!-- Removed download_links section -->
 
   </article>
 </div>
