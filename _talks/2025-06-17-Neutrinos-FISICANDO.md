@@ -3,10 +3,10 @@ title: "Vendo o universo através dos neutrinos"
 collection: talks
 type: "Talk"
 permalink: /talks/2025-07-02-Neutrinos-UFSCAR
-venue: "UFSACR"
+venue: "UFSCAR"
 date: 2025-06-16
 slidesurl: 'http://gfsalves.github.io/files/UFSCAR_FISICANDO_2025_Alves_Gustavo.pdf'
-location: "UFSCAR, Araras, Brazil"
+location: "Araras, Brazil"
 lang: en
 ---
 

@@ -6,7 +6,7 @@ permalink: /talks/2023-08-28-WR-Invisibles
 venue: "Invisibles Workshop"
 date: 2023-08-28
 slidesurl: 'http://gfsalves.github.io/files/Invisibles_WR_2023_Alves_Gustavo.pdf'
-location: "Alte Mensa, Göttingen University, Germany"
+location: "Göttingen, Germany"
 lang: en
 ---
 

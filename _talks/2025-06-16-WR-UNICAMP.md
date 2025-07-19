@@ -6,7 +6,7 @@ permalink: /talks/2025-06-16-WR-UNICAMP
 venue: "UNICAMP"
 date: 2025-06-16
 slidesurl: 'http://gfsalves.github.io/files/UNICAMP_WR_2025_Alves_Gustavo.pdf'
-location: "UNICAMP, Campinas, Brazil"
+location: "Campinas, Brazil"
 lang: en
 ---
 

@@ -6,7 +6,7 @@ permalink: /talks/2023-10-13-WR-UCIrvine
 venue: "UCIrvine"
 date: 2023-10-13
 slidesurl: 'http://gfsalves.github.io/files/UCIrvine_WR_2023_Alves_Gustavo.pdf'
-location: "University of California, Irvine"
+location: "Irvine, US"
 lang: en
 ---
 

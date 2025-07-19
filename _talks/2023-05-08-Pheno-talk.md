@@ -3,10 +3,10 @@ title: "Exploring the neutrino sector of the minimal left-right symmetric model"
 collection: talks
 type: "Talk"
 permalink: /talks/2023-05-08-Pheno-talk
-venue: "Pheno 2023"
+venue: "University of Pittsburgh"
 date: 2023-05-08
 slidesurl: 'http://gfsalves.github.io/files/Pheno_Symposion_2023_Alves_Gustavo.pdf'
-location: "University of Pittsburgh"
+location: "Pittsburgh, US"
 lang: en
 ---
 
