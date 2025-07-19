@@ -85,10 +85,15 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Submitted/Published Articles'    
   conferences:
     title: 'Conference Papers'
+  master:
+    title: 'Master Dissertation'
+  phd:
+    title: 'PhD Thesis'
 
+  
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
