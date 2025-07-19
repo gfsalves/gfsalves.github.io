@@ -3,7 +3,7 @@ title: "Mass reconstruction of heavy neutral leptons from stopped mesons"
 collection: publications
 category: manuscripts
 permalink: /publication/2024-09-06-Mass-reconstruction-of-heavy-neutral-leptons
-date: 2025-04-15
+date: 2024-09-06
 venue: 'Phys.Rev.D 111 (2025) 1, 1'
 paperurl: 'https://inspirehep.net/literature/2825817'
 ---
