@@ -61,13 +61,22 @@
     {% endif %}
 
     {% assign content_size = post.content | strip_html | strip_newlines | size %}
-    {% if content_size > 0 %}
-      <details class="archive__item-abstract" style="margin-top: 0.5em;">
-        <summary><strong>Abstract</strong></summary>
-        <div>{{ post.content | markdownify }}</div>
-      </details>
+    {% if page.layout == "archive" %}
+      {% if content_size > 0 %}
+        <details class="archive__item-abstract" style="margin-top: 0.5em;">
+          <summary><strong>Abstract</strong></summary>
+          <div>{{ post.content | markdownify }}</div>
+        </details>
+      {% endif %}
+    {% else %}
+      {% if content_size > 0 %}
+        <div>
+          {{ post.content | markdownify }}
+        </div>
+      {% endif %}
     {% endif %}
 
+    {%- comment -%}
     {% if post.excerpt and site.read_more != 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
@@ -76,6 +85,7 @@
         <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p>
       </p>
     {% endif %}
+    {%- endcomment -%}
 
     {% if post.citation %}
       <p>Recommended citation: {{ post.citation }}</p>
