@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : 
 title_separator          : 
 name                     : &name "Gustavo Alves"
-description              : &description "PhD Student at the University of Sao Paulo, Brazil."
+description              : &description "Physicist,PhD Student at the University of Sao Paulo, Brazil."
 url                      : https://gfsalves.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 languages                : ["en-US", "pt-BR"] # the languages your site is available in, e.g. ["en-US", "pt-BR"]
@@ -27,7 +27,7 @@ author:
   avatar           : "profile.png"
   name             : "Gustavo Alves"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student at the University of Sao Paulo, Brazil." 
+  bio              : "Physicist, PhD Student at the University of Sao Paulo, Brazil." 
   location         : #"Earth"
   employer         : #"Red Brick University"
   uri              : # URL
