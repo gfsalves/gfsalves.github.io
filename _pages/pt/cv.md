@@ -42,7 +42,7 @@ Pôsteres
 
 Experiência com ensino
 ======
-* Monitor e líde de equipe, Brazilian Physics Tournament, 2022 & 2024
+* Monitor e líder de equipe, Brazilian Physics Tournament, 2022 & 2024
 * Monitor, Física I e Física II, Universidade de São Paulo, 2019-2022
 
 Atividades de extensão
