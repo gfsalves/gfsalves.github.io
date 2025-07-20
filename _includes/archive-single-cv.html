@@ -39,7 +39,7 @@
 
     <!-- Authors -->
     {% if post.authors %}
-      <p class="archive__item-authors" itemprop="author">Authors: {{ post.authors }}</p>
+      <p class="archive__item-authors" itemprop="author">Authors: {{ post.authors | markdownify }}</p>
     {% endif %}
 
     <!-- Venue / Publication name -->

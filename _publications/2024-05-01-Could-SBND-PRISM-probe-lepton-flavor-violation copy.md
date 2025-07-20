@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2024-05-01-Could-SBND-PRISM-probe-lepton-flavor-violation
 date: 2024-05-01
-authors: $$\textbf{Gustavo F. S. Alves}$$, Pedro A. N. Machado, Renata Zukanovich Funchal
+authors: **Gustavo F. S. Alves**, Pedro A. N. Machado, Renata Zukanovich Funchal
 venue: 'Phys.Rev.D 110 (2024) 3, 3'
 paperurl: 'https://inspirehep.net/literature/2782872'
 ---

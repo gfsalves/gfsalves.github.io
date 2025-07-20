@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-03-30-Could-a-Primordial-Black-Hole-Explosion-Explain-the-KM3NeT-Event
 date: 2025-03-30
-authors: Lua F. T. Airoldi, $$\textbf{Gustavo F. S. Alves}$$,  Yuber F. Perez-Gonzalez, Gabriel M. Salla, Renata Zukanovich Funchal
+authors: Lua F. T. Airoldi, **Gustavo F. S. Alves**,  Yuber F. Perez-Gonzalez, Gabriel M. Salla, Renata Zukanovich Funchal
 # venue: 'Phys.Rev.D 111 (2025) 1, 1'
 paperurl: 'https://inspirehep.net/literature/2926971'
 ---
