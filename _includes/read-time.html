@@ -24,7 +24,7 @@
 
 {% if site.words_per_minute %}
   {% assign minutes = words | divided_by: site.words_per_minute %}
-  {% if site.locale == "pt" %}
+  {% if page.lang == "pt" %}
     {% if words < 180 %}
       menos de 1 min — Tempo de leitura
     {% elsif words < 360 %}
@@ -34,13 +34,13 @@
     {% endif %}
   {% else %}
     {% if words < 180 %}
-      {{ site.data.ui-text[site.locale].less_than | default: "less than" }} 1 {{ site.data.ui-text[site.locale].minute_read | default: "min read" }}
+      {{ site.data.ui-text[page.lang].less_than | default: "less than" }} 1 {{ site.data.ui-text[page.lang].minute_read | default: "min read" }}
     {% elsif words < 360 %}
-      1 {{ site.data.ui-text[site.locale].minute_read | default: "min read" }}
+      1 {{ site.data.ui-text[page.lang].minute_read | default: "min read" }}
     {% else %}
-      {{ minutes }} {{ site.data.ui-text[site.locale].minute_read | default: "min read" }}
+      {{ minutes }} {{ site.data.ui-text[page.lang].minute_read | default: "min read" }}
     {% endif %}
   {% endif %}
 {% else %}
-  {{ site.data.ui-text[site.locale].undefined_wpm | default: "Undefined parameter words_per_minute at _config.yml" }}
+  {{ site.data.ui-text[page.lang].undefined_wpm | default: "Undefined parameter words_per_minute at _config.yml" }}
 {% endif %}
