@@ -18,7 +18,7 @@ en:
     url: /en/publications/
   
   - title: "Blog Posts"
-    url: /en/year-archive/
+    url: /en/blog-posts/
 
   # - title: "Teaching"
   #   url: /en/teaching/
@@ -37,8 +37,8 @@ pt:
   - title: "Publicações"
     url: /pt/publicacoes/
   
-  - title: "Blog Posts"
-    url: /pt/year-archive/
+  - title: "Blog"
+    url: /pt/blog-posts/
    
   # - title: "Ensino"
   #   url: /pt/ensino/
