@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2024-09-11-Measuring-the-weak-mixing-angle-at-SBND
 date: 2024-09-11
-authors: **Gustavo F. S. Alves**, Antonio P. Ferreira, Shirley Weishi Li, Pedro A. N. Machado, and Yuber F. Perez-Gonzalez
+authors: Gustavo F. S. Alves, Antonio P. Ferreira, Shirley Weishi Li, Pedro A. N. Machado, and Yuber F. Perez-Gonzalez
 # venue: 'Phys.Rev.D 111 (2025) 1, 1'
 paperurl: 'https://inspirehep.net/literature/2827195'
 ---

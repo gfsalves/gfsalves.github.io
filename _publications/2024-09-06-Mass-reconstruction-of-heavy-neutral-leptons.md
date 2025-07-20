@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2024-09-06-Mass-reconstruction-of-heavy-neutral-leptons
 date: 2024-09-06
-authors: **Gustavo F. S. Alves**, P. S. Bhupal Dev, Kevin J. Kelly, and Pedro A. N. Machado
+authors: Gustavo F. S. Alves, P. S. Bhupal Dev, Kevin J. Kelly, and Pedro A. N. Machado
 venue: 'Phys.Rev.D 111 (2025) 1, 1'
 paperurl: 'https://inspirehep.net/literature/2825817'
 ---
