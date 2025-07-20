@@ -33,9 +33,10 @@ Talks
 
 Posters
 ======
+* $$\textbf{(Almost)  First-principle calculation of accelerator neutrino wave packet size}$$,  Invisibles workshop, 2024.
 * $$\textbf{Could SBND-PRISM probe lepton flavor violation?}$$, Neutrino, 2024.
-* $$\textbf{New limits on $W_R$ from meson decays}$$, Invisibles workshop, 2023. 
-  $$\bullet$$ \textbf{Best poster award at the workshop}
+* $$\textbf{New limits on $W_R$ from meson decays}$$, Invisibles workshop, 2023.<br>
+  $$\star  \textbf{Best poster award at the workshop}$$
 * $$\textbf{New limits on $W_R$ from meson decays}$$, Invisibles school 2023.
 * $$\textbf{New limits on $W_R$ from meson decays}$$ International Neutrino Summer School 2023.
 
