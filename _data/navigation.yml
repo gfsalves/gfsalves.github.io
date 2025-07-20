@@ -20,8 +20,8 @@ en:
   - title: "Blog Posts"
     url: /en/year-archive/
 
-  - title: "Teaching"
-    url: /en/teaching/
+  # - title: "Teaching"
+  #   url: /en/teaching/
 
   - title: "CV"
     url: /en/cv/
@@ -40,8 +40,8 @@ pt:
   - title: "Blog Posts"
     url: /pt/year-archive/
    
-  - title: "Ensino"
-    url: /pt/ensino/
+  # - title: "Ensino"
+  #   url: /pt/ensino/
 
   - title: "CV"
     url: /pt/cv/
