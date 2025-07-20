@@ -29,7 +29,7 @@
 
     <!-- Always make title a clickable link -->
     <h3 class="archive__item-title" itemprop="headline">
-      <a href="{{ post.link | default: post.url | prepend: base_path }}" rel="permalink">{{ title }}</a>
+      <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ title }}</a>
     </h3>
 
     <!-- Optional metadata -->
@@ -39,12 +39,12 @@
 
     <!-- Authors -->
     {% if post.authors %}
-      <p class="archive__item-authors" itemprop="author"><strong>Authors:</strong> {{ post.authors }}</p>
+      <p class="archive__item-authors" itemprop="author">Authors:{{ post.authors }}</p>
     {% endif %}
 
     <!-- Venue / Publication name -->
     {% if post.venue %}
-      <p class="archive__item-venue"><strong>Published in:</strong> {{ post.venue }}</p>
+      <p class="archive__item-venue">Published in <i>{{ post.venue }}</i></p>
     {% endif %}
 
     <!-- Full citation (optional, often includes title, authors, venue, year) -->

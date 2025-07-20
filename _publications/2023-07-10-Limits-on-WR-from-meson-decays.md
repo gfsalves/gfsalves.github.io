@@ -4,6 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2023-07-10-Limits-on-WR-from-meson-decays
 date: 2023-07-10
+authors: Gustavo Alves
 venue: 'Phys.Rev.Lett. 133 (2024) 16, 16'
 paperurl: 'https://inspirehep.net/literature/2675987'
 ---
