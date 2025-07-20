@@ -251,6 +251,28 @@ defaults:
       comments: true
       share: true
       related: true
+  # _postsen
+  - scope:
+      path: ""
+      type: postsen
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _postspt
+  - scope:
+      path: ""
+      type: postspt
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true    
   # _pages
   - scope:
       path: ""
