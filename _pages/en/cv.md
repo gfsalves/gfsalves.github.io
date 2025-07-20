@@ -33,16 +33,14 @@ Talks
 
 Posters
 ======
-* $$\textbf{New limits on $W_R$ from meson decays}$$, Invisibles school 2023, Bad Honnef
-* $$\textbf{New limits on $W_R$ from meson decays}$$ International Neutrino Summer School 2023, Fermilab
+* $$\textbf{Could SBND-PRISM probe lepton flavor violation?}$$, Neutrino, 2024.
+* $$\textbf{New limits on $W_R$ from meson decays}$$, Invisibles workshop, 2023. 
+  $$\bullet$$ \textbf{Best poster award at the workshop}
+* $$\textbf{New limits on $W_R$ from meson decays}$$, Invisibles school 2023.
+* $$\textbf{New limits on $W_R$ from meson decays}$$ International Neutrino Summer School 2023.
 
-Teaching
+Teaching Experience
 ======
-  <!-- <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-   -->
-
 * Teaching assistant and team leader, Brazilian Physics Tournament, 2022 & 2024
 * Teaching assistant, Physics I and Physics II, University of Sao Paulo, 2019-2022
 
