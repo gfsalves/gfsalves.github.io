@@ -4,6 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-03-18-Neutron-portal-to-ultra-high-energy-neutrinos
 date: 2025-03-18
+authors: $$\textbf{Gustavo F. S. Alves}$$, Matheus Hostert, Maxim Pospelov
 # venue: 'Phys.Rev.D 111 (2025) 1, 1'
 paperurl: 'https://inspirehep.net/literature/2901496'
 ---

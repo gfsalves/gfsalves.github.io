@@ -4,7 +4,7 @@ collection: publications
 category: master
 permalink: /publication/2020-09-09-Decoherence-in-Neutrino-Oscillations-in-the-IceCube-Experiment
 date: 2020-09-09
-author: Gustavo Alves
+authors: $$\textbf Gustavo Alves$$
 # venue: 'Phys.Rev.D 111 (2025) 1, 1'
 paperurl: 'https://inspirehep.net/literature/1829366'
 ---

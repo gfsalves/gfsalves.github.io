@@ -4,6 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2021-03-30-On-shell-approach-to-neutrino-oscillations
 date: 2021-03-30
+authors: $$\textbf Gustavo F. S. Alves$$, Enrico Bertuzzo, Gabriel M. Salla 
 venue: 'Phys.Rev.D 106 (2022) 3, 036028'
 paperurl: 'https://inspirehep.net/literature/1854518'
 ---
