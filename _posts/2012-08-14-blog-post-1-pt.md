@@ -8,7 +8,7 @@ tags:
   - cool posts
   - category1
   - category2
-lang: pt
+lang: en
 ---
 
 Exemplo de post
