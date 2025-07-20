@@ -48,7 +48,15 @@
 
     {% if post.excerpt %}
       <details class="archive__item-abstract" style="margin-top: 0.5em;">
-        <summary><strong>Summary</strong></summary>
+        <summary>
+          <strong>
+            {% if page.lang == "pt" %}
+                Resumo
+            {% else %}
+                Summary
+            {% endif %}
+          </strong>
+        </summary>
         <div>
           {{ post.excerpt | markdownify }}
         </div>
