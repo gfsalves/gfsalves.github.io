@@ -26,17 +26,31 @@
           alt="">
       </div>
     {% endif %}
+
+    <!-- Always make title a clickable link -->
     <h3 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
+      <a href="{{ post.link | default: post.url | prepend: base_path }}" rel="permalink">{{ title }}</a>
     </h3>
+
+    <!-- Optional metadata -->
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
+
+    <!-- Authors -->
+    {% if post.authors %}
+      <p class="archive__item-authors" itemprop="author"><strong>Authors:</strong> {{ post.authors }}</p>
+    {% endif %}
+
+    <!-- Venue / Publication name -->
+    {% if post.venue %}
+      <p class="archive__item-venue"><strong>Published in:</strong> {{ post.venue }}</p>
+    {% endif %}
+
+    <!-- Full citation (optional, often includes title, authors, venue, year) -->
+    {% if post.citation %}
+      <p class="archive__item-citation" itemprop="description">{{ post.citation }}</p>
+    {% endif %}
     </li>
- </article>
+  </article>
 </div>
