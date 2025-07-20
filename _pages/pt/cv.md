@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Formação
 ======
 * Doutorado em Física, Universidade de São Paulo, 2025 (esperado)
 * Bolsa de estágio e pesquisa no exterior, Fermilab, 2023
@@ -42,12 +42,12 @@ Pôsteres
 
 Experiência com ensino
 ======
-* Teaching assistant and team leader, Brazilian Physics Tournament, 2022 & 2024
-* Teaching assistant, Physics I and Physics II, University of Sao Paulo, 2019-2022
+* Monitor e líde de equipe, Brazilian Physics Tournament, 2022 & 2024
+* Monitor, Física I e Física II, Universidade de São Paulo, 2019-2022
 
 Atividades de extensão
 ======
-* Assistant, CERN master class, University of Sao Paulo, 2017 & 2018.
-* Extension project, USP-escola, University of Sao Paulo, 2016
+* Assistente, Master class do CERN, Universidade de São Paulo, 2017 & 2018.
+* Projeto de extensão, USP-escola, Universidade de São Paulo, 2016
 
 
