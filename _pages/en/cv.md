@@ -36,7 +36,7 @@ Posters
 * $$\textbf{(Almost)  First-principle calculation of accelerator neutrino wave packet size}$$,  Invisibles workshop, 2024.
 * $$\textbf{Could SBND-PRISM probe lepton flavor violation?}$$, Neutrino, 2024.
 * $$\textbf{New limits on $W_R$ from meson decays}$$, Invisibles workshop, 2023.<br>
-  $$\star  \textbf{Best poster award at the workshop}$$
+  $$\star$$  $$\textbf{Best poster award at the workshop}$$
 * $$\textbf{New limits on $W_R$ from meson decays}$$, Invisibles school 2023.
 * $$\textbf{New limits on $W_R$ from meson decays}$$ International Neutrino Summer School 2023.
 
@@ -44,5 +44,10 @@ Teaching Experience
 ======
 * Teaching assistant and team leader, Brazilian Physics Tournament, 2022 & 2024
 * Teaching assistant, Physics I and Physics II, University of Sao Paulo, 2019-2022
+
+Outreach
+======
+* Assistant, CERN master class, University of Sao Paulo, 2017 & 2018.
+* Extension project, USP-escola, University of Sao Paulo, 2016
 
 
