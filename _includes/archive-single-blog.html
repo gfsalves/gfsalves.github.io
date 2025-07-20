@@ -46,6 +46,16 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
+    {% if post.excerpt %}
+      <details class="archive__item-abstract" style="margin-top: 0.5em;">
+        <summary><strong>Summary</strong></summary>
+        <div>
+          {{ post.excerpt | markdownify }}
+        </div>
+      </details>
+    {% endif %}
+
+
     {% if post.collection == 'teaching' %}
       <p>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
     {% elsif post.collection == 'publications' and post.venue %}
