@@ -52,7 +52,12 @@
     {% endif %}
   </article>
 
-  {% if post.slidesurl %}
-    <p><a href="{{ post.slidesurl }}" target="_blank">📥 Download slides</a></p>
-  {% endif %}
+   <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 0.5rem;">
+    {% if post.slidesurl %}
+      <a href="{{ post.slidesurl }}" target="_blank">📥 Download slides</a>
+    {% endif %}
+    {% if post.videourl %}
+      <a href="{{ post.videourl }}" target="_blank">📺 Watch video</a>
+    {% endif %}
+  </div>
 </div>
