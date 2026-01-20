@@ -12,7 +12,8 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Physics, University of Sao Paulo, 2025 (expected)
+* Postdoct, Fermilab/Northwestern, 2025-Present
+* Ph.D in Physics, University of Sao Paulo, 2025
 * Research Intership Abroad (Fellowship), Fermilab, 2023
 * M.S. in Physics, University of Sao Paulo, 2020
 * B.S. in Physics, University of Sao Paulo, 2018
