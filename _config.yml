@@ -27,11 +27,11 @@ author:
   avatar           : "profile.png"
   name             : "Gustavo Alves"
   pronouns         : # example: "she/her"  
-  bio              : "Physicist, PhD Student at the University of Sao Paulo, Brazil." 
+  bio              : "Physicist, Postdoc at Fermilab and Northwestern University." 
   location         : #"Earth"
   employer         : #"Red Brick University"
   uri              : # URL
-  email            : "gustavo.figueiredo.alves@usp.br" 
+  email            : "gustavo.alves@northwestern.edu" 
 
   # Academic websites
   academia         : # URL
