@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2025-03-30-Chasing-Serendipity-Tackling-Transient-Sources-with-Neutrino-Telescopes
 date: 2025-03-30
 authors: Lua F. T. Airoldi, Gustavo F. S. Alves,  Yuber F. Perez-Gonzalez, Gabriel M. Salla, Renata Zukanovich Funchal
-# venue: 'Phys.Rev.D 111 (2025) 1, 1'
+venue: 'Phys.Rev.D 113 (2026) 2, 023052'
 paperurl: 'https://inspirehep.net/literature/2926980'
 ---
 
