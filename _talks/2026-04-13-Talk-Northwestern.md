@@ -3,10 +3,10 @@ title: "Open system approach to neutrinos propagating in an ultralight scalar ba
 collection: talks
 type: "Talk"
 permalink: /talks/2026-04-13-Talk-Northwestern
-venue: "Online"
+venue: "Department of Physics and Astronomy"
 date: 2026-04-13
 slidesurl: 
-location: "Online"
+location: "Northwestern University"
 lang: en
 ---
 
